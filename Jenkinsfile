@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    ubuntu-prod
+    label 'ubuntu-prod'
   }
   stages {
     stage ('clone repo') {
