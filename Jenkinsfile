@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    label 'ubuntu-test'
-  }
+  agent 'any'
   stages {
     stage ('clone repo') {
       steps {
